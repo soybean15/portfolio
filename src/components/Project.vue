@@ -2,7 +2,7 @@
   <div ref="target">
     <Transition name="slide-fade"
       >
-      <div class=" p-2 md:p-5 flex border border-base-200 rounded-md"  v-show="targetIsVisible"> 
+      <div class=" p-2 md:p-5 flex border border-base-200 rounded-md"  v-if="targetIsVisible"> 
         <div class="w-1/2 aspect-[16/9]"> 
           <img src="@/assets/logo/lima-bean.png" />
         </div>
