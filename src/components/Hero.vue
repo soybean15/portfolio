@@ -16,7 +16,7 @@
           >
             Hi I'm Soybean
           </div>
-          <p class="text-start text-sm md:text-md">
+          <p class="text-start text-md md:text-lg py-2">
             Aspiring web developer, student, currently mastering Vue.js and
             Laravel. Passionate about creating dynamic web applications and
             staying updated on industry trends. Excited about the creative
