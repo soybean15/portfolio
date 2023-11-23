@@ -1,7 +1,7 @@
 <template>
 <div class="bg-base-200 h-7 relative rounded-xl">
 
-  <div class="font-righteous absolute top-0 text-xl px-2 overflow-hidden shadow-lg rounded-e-xl">
+  <div class="font-righteous absolute top-0 text-xl px-2 overflow-hidden shadow-md rounded-xl">
     <span class="text-orange-500">Soybean</span>
     <span>15</span>
   </div>
