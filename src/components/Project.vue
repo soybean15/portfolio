@@ -4,7 +4,7 @@
   
       <div class=" p-2 md:p-5 flex border border-base-200 rounded-md"  v-if="targetIsVisible"> 
         <div class="w-1/2 aspect-[16/9]"> 
-          <img src="@/assets/logo/lima-bean.png" />
+          <img src="@/assets/ongoing.png" />
         </div>
 
         <div class="px-3 flex flex-col w-1/2 justify-between">

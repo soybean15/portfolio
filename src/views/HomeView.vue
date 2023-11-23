@@ -4,6 +4,13 @@
 
     <Projects/>
 
+    <div>
+      <div> 
+        Development on Progress...
+        <img src="@/assets/ongoing2.png"/>
+      </div>
+    </div>
+
   </div>
 </template>
 
