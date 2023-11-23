@@ -1,18 +1,40 @@
 <template>
-  <div class="home h-screen">
+  <div ref="target" class="home flex flex-col items-center ">
 
-    <Hero class="mt-10"/>
+   
+      <hero />
+    
+
+  
+  
+
  
   </div>
 </template>
 
 <script>
 import Hero from '@/components/Hero.vue'
+import { ref } from 'vue'
 
 export default {
   name: 'HomeView',
   components: {
     Hero
+  },
+  setup(){
+
+
+    return{
+    
+      
+    }
   }
 }
 </script>
+<style >
+/*
+  Enter and leave animations can use different
+  durations and timing functions.
+*/
+
+</style>

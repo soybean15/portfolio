@@ -1,5 +1,5 @@
 <template>
- <div :data-theme="activeTheme" class="">
+ <div :data-theme="activeTheme" >
   <NavBar/>
   <router-view/>
 

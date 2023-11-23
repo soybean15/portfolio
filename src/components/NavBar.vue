@@ -1,16 +1,8 @@
 <template>
-  <div class="navbar bg-base px-5 md:px-10">
-    <div class="flex-1 items-center">
-      <a class="btn btn-ghost btn-md px-1 text-lg">
-        <div class="avatar flex items-center cursor-pointer">
-          <div class="w-10 rounded">
-            <img src="@/assets/logo/lima-bean.png" />
-          </div>
-          Soybean15
-        </div>
-        </a
-      >
-    </div>
+  <div class="navbar flex justify-between items-center bg-base px-5 md:px-20">
+   
+    <diff class="cursor-pointer"/>
+  
     <div class="flex-none">
       <ul class="menu flex items-center menu-horizontal px-1">
         
@@ -38,8 +30,10 @@ import { useThemeStore } from "@/store/theme";
 import ThemeSelect from "./ThemeSelect.vue";
 import { storeToRefs } from "pinia";
 
+import Diff from './Diff.vue';
+
 export default {
-  components: { ThemeSelect },
+  components: { ThemeSelect ,Diff},
   setup() {
     const themeStore = useThemeStore();
     const { isDark } = storeToRefs(themeStore);
