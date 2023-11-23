@@ -1,8 +1,8 @@
 <template>
-  <div>
-
+<div ref="target"  > 
+    <Transition name="slide-fade">
   
-      <div class=" p-2 md:p-5 flex border border-base-200 rounded-md" > 
+      <div class=" p-2 md:p-5 flex border border-base-200 rounded-md"  v-if="targetIsVisible"> 
         <div class="w-1/2 aspect-[16/9]"> 
           <img src="@/assets/logo/lima-bean.png" />
         </div>
@@ -29,7 +29,7 @@
           </div>
         </div>
       </div>
-    
+    </Transition>
   </div>
 </template>
 
@@ -37,22 +37,40 @@
 
 import Logo from "./Logo.vue";
 import { ref } from "vue";
-
+import { useElementVisibility } from '@vueuse/core'
 export default {
   props: ["project"],
   components: { Logo },
+  setup(){
+    const target = ref(null)
+    const targetIsVisible = useElementVisibility(target)
+
+    return {
+      target,
+      targetIsVisible,
+    }
+  }
+
 
 };
 </script>
 
 <style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s ease;
+/*
+  Enter and leave animations can use different
+  durations and timing functions.
+*/
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
 }
 
-.fade-enter-from,
-.fade-leave-to {
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(20px);
   opacity: 0;
 }
 </style>

@@ -4,10 +4,6 @@
 
     <Projects/>
 
-    <!-- <div>
-      <div>Section in progress...</div>
-      <img src="@/assets/ongoing.png" />
-    </div> -->
   </div>
 </template>
 
