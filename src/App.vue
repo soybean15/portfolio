@@ -1,10 +1,29 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+ <div :data-theme="activeTheme" class="">
+  <NavBar/>
   <router-view/>
+
+ </div>
 </template>
+
+<script>
+import NavBar from './components/NavBar.vue'
+import {useThemeStore} from '@/store/theme'
+import { storeToRefs } from 'pinia'
+export default{
+  
+  components:{NavBar},
+  setup(){
+    const themeStore = useThemeStore()
+    const {activeTheme} =storeToRefs(themeStore)
+    return {
+      activeTheme
+    }
+  }
+
+}
+</script>
+
 
 <style>
 #app {
