@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'spantaran';
+    src: url('@/assets/fonts/Spantaran-GE2D.ttf');
+}
+
+@font-face {
+    font-family: 'righteous';
+    src: url('@/assets/fonts/Righteous-Regular.ttf');
+}
+
+
+
+.font-spantaran{
+    font-family: 'spantaran';
+}
+.font-righteous{
+    font-family: 'righteous';
+}
