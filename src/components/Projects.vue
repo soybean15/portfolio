@@ -38,18 +38,72 @@ const projects = [
   },
   {
     title: "ConnectFour Console game",
-    description:
-      "Connect Four Console Game in Java",
+    description: "Connect Four Console Game in Java",
     type: "console",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
   },
   {
     title: "Java Swing Pagination",
-    description:
-      "A public, simple pagination library designed for easy integration into your Java Swing projects.",
+    description: "A public, simple pagination library for Java Swing projects.",
     type: "console",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
   },
+  {
+    title: "PNHS EMS",
+    description: "PNHS Management System",
+    type: "Desktop",
+    stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
+  },
+  {
+    title: "PNHS Voting System",
+    description: "PNHS Voting System",
+    type: "Web",
+    stacks: [
+      { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
+      { name: "laravel.com", label: "Laravel", link: "https://laravel.com" },
+      {
+        name: "tailwindcss.com",
+        label: "Tailwind",
+        link: "https://tailwindcss.com",
+      },
+      {
+        name: "daisyui.com",
+        label: "DaisyUi",
+        link: "https://daisyui.com",
+      },
+    ],
+  },
+  {
+    title: "Maxilife Online Appointment And Patient Record",
+    description: "Appointment system for Maxilife Clinic",
+    type: "Web",
+    stacks: [
+      { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
+      { name: "laravel.com", label: "Laravel", link: "https://laravel.com" },
+      {
+        name: "tailwindcss.com",
+        label: "Tailwind",
+        link: "https://tailwindcss.com",
+      },
+      { name: "quasar.dev", label: "Quasar", link: "https://quasar.dev" },
+    ],
+  },
+  {
+    title: "PNHS Realtime biometrics",
+    description: "Attendance Monitoring with real time biometrics",
+    type: "Web",
+    stacks: [
+      { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
+      { name: "laravel.com", label: "Laravel", link: "https://laravel.com" },
+      {
+        name: "tailwindcss.com",
+        label: "Tailwind",
+        link: "https://tailwindcss.com",
+      },
+      { name: "quasar.dev", label: "Quasar", link: "https://quasar.dev" },
+    ],
+  },
+
 ];
 export default {
   components: { Project },
