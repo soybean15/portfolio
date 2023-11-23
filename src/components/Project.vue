@@ -1,9 +1,8 @@
 <template>
-  <div ref="target">
+  <div>
 
-    <Transition name="fade"
-      >
-      <div class=" p-2 md:p-5 flex border border-base-200 rounded-md"  v-if=" targetIsVisible"> 
+  
+      <div class=" p-2 md:p-5 flex border border-base-200 rounded-md" > 
         <div class="w-1/2 aspect-[16/9]"> 
           <img src="@/assets/logo/lima-bean.png" />
         </div>
@@ -30,36 +29,19 @@
           </div>
         </div>
       </div>
-    </Transition>
+    
   </div>
 </template>
 
 <script>
-import { useElementVisibility } from "@vueuse/core";
+
 import Logo from "./Logo.vue";
 import { ref } from "vue";
 
 export default {
   props: ["project"],
   components: { Logo },
-  setup() {
-    const target = ref(null);
 
-  
-    const targetIsVisible = useElementVisibility(target);
-
-    console.log(targetIsVisible.value)
-
-
-  
-
-    
-    return {
-      target,
-      targetIsVisible,
-      
-    };
-  },
 };
 </script>
 
