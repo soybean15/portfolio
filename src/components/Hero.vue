@@ -3,8 +3,8 @@
     ref="target"
     class="flex flex-col md:flex justify-around items-start py-10 px-3 md:w-[1000px]"
   >
-    <Transition name="fade" v-show="targetIsVisible">
-      <div class="flex flex-col sm:flex-row items-center">
+    <Transition name="fade" >
+      <div class="flex flex-col sm:flex-row items-center" v-if="targetIsVisible">
         <div>
           <img class="w-[1000px]" src="@/assets/logo/lima-bean.png" />
         </div>
@@ -33,7 +33,7 @@
 
 <script>
 import { useElementVisibility } from "@vueuse/core";
-import { ref } from "vue";
+import { ref,   } from "vue";
 
 import Logo from "./Logo.vue";
 
@@ -63,6 +63,8 @@ export default {
   setup() {
     const target = ref(null);
     const targetIsVisible = useElementVisibility(target);
+
+   
 
     return {
       target,

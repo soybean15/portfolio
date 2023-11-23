@@ -3,6 +3,7 @@
   <NavBar/>
   <router-view/>
 
+  <Footer/>
  </div>
 </template>
 
@@ -10,9 +11,11 @@
 import NavBar from './components/NavBar.vue'
 import {useThemeStore} from '@/store/theme'
 import { storeToRefs } from 'pinia'
+
+import Footer from './components/Footer.vue'
 export default{
   
-  components:{NavBar},
+  components:{NavBar,Footer},
   setup(){
     const themeStore = useThemeStore()
     const {activeTheme} =storeToRefs(themeStore)
