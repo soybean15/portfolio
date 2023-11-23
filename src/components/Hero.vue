@@ -1,20 +1,16 @@
 <template>
-  <div class="flex justify-center items-center">
-    <div class="diff  aspect-[16/9] w-[600px]" >
+  <div class="flex items-center justify-center p-5">
+    <div class="diff aspect-[21/9] md:aspect-[16/9] p-15 w-[1000px] ">
       <div class="diff-item-1">
-        <div class="flex h-[400px] items-center justify-center">
-          <div class="text-7xl md:text-8xl font-righteous rounded-3xl">
-            <span class="text-orange-800">Soybean</span>
-            <span class="text-green-500">15</span>
-          </div>
+        <div
+          class="bg-base text-orange-600 px-5 flex font-righteous  text-5xl md:text-9xl items-center "
+        >
+        Soybean<span class="text-green-600">15</span>
         </div>
       </div>
       <div class="diff-item-2">
-        <div class="flex h-[400px] items-center justify-center">
-          <div class="text-7xl md:text-8xl font-righteous bg-orange-700 p-8 rounded-3xl">
-            <span class="">Soybean</span>
-            <span class="text-green-500">15</span>
-          </div>
+        <div class="bg-orange-600 px-5 text-base-100 font-righteous rounded-s-[50px] text-5xl md:text-9xl  flex  items-center ">
+            Soybean<span class="text-green-600">15</span>
         </div>
       </div>
       <div class="diff-resizer"></div>

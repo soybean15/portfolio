@@ -1,7 +1,7 @@
 <template>
-  <div class="navbar bg-base px-5">
+  <div class="navbar bg-base px-5 md:px-10">
     <div class="flex-1 items-center">
-      <a class="btn btn-ghost btn-md text-lg">
+      <a class="btn btn-ghost btn-md px-1 text-lg">
         <div class="avatar flex items-center cursor-pointer">
           <div class="w-10 rounded">
             <img src="@/assets/logo/lima-bean.png" />
@@ -13,6 +13,10 @@
     </div>
     <div class="flex-none">
       <ul class="menu flex items-center menu-horizontal px-1">
+        
+        <li>
+          <ThemeSelect />
+        </li>
         <li>
           <a
             ><img
@@ -23,9 +27,6 @@
                   : require('@/assets/logo/github-mark.svg')
               "
           /></a>
-        </li>
-        <li>
-          <ThemeSelect />
         </li>
       </ul>
     </div>

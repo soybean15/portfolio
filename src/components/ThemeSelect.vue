@@ -1,7 +1,7 @@
 <template>
   <details>
     <summary>Themes</summary>
-    <ul class="p-2 h-[500px] overflow-auto bg-base-100">
+    <ul class="p-2 z-20 h-[500px] overflow-auto bg-base-100">
       <li @click="themeStore.changeTheme(theme)" v-for="theme in themes">
         <div class="flex">
           <span> {{ theme }} </span>
