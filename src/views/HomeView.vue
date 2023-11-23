@@ -1,7 +1,7 @@
 <template>
   <div class="home h-screen">
 
-    <Hero/>
+    <Hero class="mt-10"/>
  
   </div>
 </template>
