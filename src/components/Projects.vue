@@ -4,7 +4,7 @@
       <div class="text-2xl md:text-4xl font-bold text-start text-green-500">
         Projects
       </div>
-      <div>
+      <div class="py-2">
         <FilterProject
           :options="[
             'All',
