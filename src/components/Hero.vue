@@ -13,7 +13,7 @@
           Hi I'm Soybean
         </div>
         <p class="text-start text-md md:text-xl py-2">
-          Hi there! I'm Marlon Padilla, a passionate web development enthusiast
+          Hi there! I'm <b class="text-green-500">Marlon Padilla</b>, a passionate web development enthusiast
           on a journey to build exciting and user-friendly web applications. I'm
           diving deep into the world of Vue.js and Laravel, and I'm passionate
           about creating dynamic web applications. I'm enthusiastic about
