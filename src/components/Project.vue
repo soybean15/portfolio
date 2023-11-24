@@ -3,23 +3,29 @@
     <Transition name="slide-fade">
   
       <div class=" p-2 md:p-5 flex border border-base-200 rounded-md"  v-if="targetIsVisible"> 
-        <div class="w-[40%] aspect-[16/9]"> 
-          <img src="@/assets/ongoing.png" />
+        <div class="w-[40%]"> 
+          <img  class=" object-cover border-2 aspect-video rounded-lg" :src="project.thumbnail ?? require('@/assets/ongoing.png')" />
         </div>
 
         <div class="px-3 flex flex-col w-[60%] justify-between">
-          <div class="flex relative flex-col">
-            <div class="absolute -right-3 top-0">
-           
-               <button class="btn btn-xs btn-ghost">    <GithubLogo :size="'1.5em'"/> </button>
-              </div>
+          <div class="flex  flex-col">
+
             <div class="text-left text-lg md:text-md font-bold text-accent">
               {{ project.title }}
             </div>
+            
             <div class="badge badge-ghost">{{ project.type }}</div>
+
             <div class="text-left text-md md:text-sm">
               {{ project.description }}
             </div>
+            <div class="flex py-1" v-if="project.repository">
+              <div class="tooltip" :data-tip="repo.label" v-for="repo in project.repository" :key="repo.label">
+                <button class="btn btn-xs btn-ghost">    <GithubLogo :size="'1.5em'"/> </button>
+              </div>
+              
+            </div>
+            
           </div>
 
           <div class="flex flex-col items-start">

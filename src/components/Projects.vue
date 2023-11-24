@@ -21,38 +21,81 @@ const projects = [
   {
     title: "CScreen",
     description: "Text-base UI on Console",
+    thumbnail:'https://user-images.githubusercontent.com/75112014/183237756-a8ac0d03-fb91-4257-b388-3505bd1547ae.png',
     type: "console",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
+    repository: [
+      {
+        label: "repo",
+        link: "https://github.com/soybean15/CScreen",
+      },
+     
+    ],
   },
   {
     title: "Lucky 9",
     description: "Java console-based Lucky 9 game",
     type: "console",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
+    repository: [
+      {
+        label: "repo",
+        link: "https://github.com/soybean15/LuckyNineConsole",
+      },
+     
+    ],
   },
   {
     title: "Lover Bot",
     description: "SimpleChat bot on java console",
     type: "console",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
+    repository: [
+      {
+        label: "repo",
+        link: "https://github.com/soybean15/LoverBot",
+      },
+     
+    ],
   },
   {
     title: "ConnectFour Console game",
     description: "Connect Four Console Game in Java",
     type: "console",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
+    repository: [
+      {
+        label: "repo",
+        link: "https://github.com/soybean15/ConnectFour-Console-game-",
+      },
+     
+    ],
   },
   {
     title: "Java Swing Pagination",
     description: "A public, simple pagination library for Java Swing projects.",
     type: "console",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
+    repository: [
+      {
+        label: "repo",
+        link: "https://github.com/soybean15/Java-swing-pagination",
+      },
+     
+    ],
   },
   {
     title: "PNHS EMS",
     description: "PNHS Management System",
     type: "Desktop",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
+    repository: [
+      {
+        label: "repo",
+        link: "https://github.com/soybean15/PNHSems",
+      },
+     
+    ],
   },
   {
     title: "PNHS Voting System",
@@ -72,6 +115,16 @@ const projects = [
         link: "https://daisyui.com",
       },
     ],
+    repository: [
+      {
+        label: "client",
+        link: "https://github.com/soybean15/voting-system-fe",
+      },
+      {
+        label: "api",
+        link: "https://github.com/soybean15/voting-system-restapihttps://github.com/soybean15/voting-system-restapi",
+      },
+    ],
   },
   {
     title: "Maxilife Online Appointment And Patient Record",
@@ -87,6 +140,16 @@ const projects = [
       },
       { name: "quasar.dev", label: "Quasar", link: "https://quasar.dev" },
     ],
+    repository: [
+      {
+        label: "client",
+        link: "https://github.com/soybean15/online-appointment-patient-record-spa",
+      },
+      {
+        label: "private repo",
+        link: "https://github.com",
+      },
+    ],
   },
   {
     title: "PNHS Realtime biometrics",
@@ -101,9 +164,19 @@ const projects = [
         link: "https://tailwindcss.com",
       },
       { name: "quasar.dev", label: "Quasar", link: "https://quasar.dev" },
+      { name: "soketi.app", label: "Soketi", link: "https://docs.soketi.app/" },
+    ],
+    repository: [
+      {
+        label: "client",
+        link: "https://github.com/soybean15/realtime-biometrics-client",
+      },
+      {
+        label: "api",
+        link: "https://github.com/soybean15/realtime-biometrics-api",
+      },
     ],
   },
-
 ];
 export default {
   components: { Project },
