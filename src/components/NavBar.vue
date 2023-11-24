@@ -10,7 +10,7 @@
           <ThemeSelect />
         </li>
         <li>
-          <GithubLogo/>
+         <a href="https://github.com/soybean15" target="blank"><GithubLogo/></a>
         </li>
       </ul>
     </div>
