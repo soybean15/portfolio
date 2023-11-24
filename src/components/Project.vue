@@ -2,12 +2,12 @@
 <div ref="target"  > 
     <Transition name="slide-fade">
   
-      <div class=" p-2 md:p-5 flex border border-base-200 rounded-md"  v-if="targetIsVisible"> 
-        <div class="w-[40%]"> 
-          <img  class=" object-cover border-2 aspect-video rounded-lg" :src="project.thumbnail ?? require('@/assets/ongoing.png')" />
+      <div class=" p-2 md:p-5 flex flex-col md:flex-row border border-base-200 rounded-md"  v-if="targetIsVisible"> 
+        <div class="md:w-[40%] flex "> 
+          <img  class="  border-2 w-full aspect-video rounded-lg" :src="project.thumbnail ?? require('@/assets/ongoing.png')" />
         </div>
 
-        <div class="px-3 flex flex-col w-[60%] justify-between">
+        <div class="px-3 mt-2  md:mt-0 flex flex-col md:w-[60%] justify-between">
           <div class="flex  flex-col">
 
             <div class="text-left text-lg md:text-md font-bold text-accent">
