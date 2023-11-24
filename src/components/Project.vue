@@ -3,7 +3,7 @@
     <Transition name="slide-fade">
   
       <div class=" p-2 md:p-5   flex flex-col md:flex-row border border-base-200 rounded-md"  v-if="targetIsVisible"> 
-        <div class="w-full  bg-slate-500 md:w-[40%] flex "> 
+        <div class="w-full   md:w-[40%] flex "> 
           <img  class="  border-2 w-full aspect-video rounded-lg" :src="project.thumbnail ?? require('@/assets/ongoing.png')" />
         </div>
 
@@ -21,7 +21,7 @@
             </div>
             <div class="flex py-1" v-if="project.repository">
               <div class="tooltip" :data-tip="repo.label" v-for="repo in project.repository" :key="repo.label">
-                <button class="btn btn-xs btn-ghost">    <GithubLogo :size="'1.5em'"/> </button>
+                <button class="btn btn-xs btn-ghost"> <a :href="repo.link" target="blank"> <GithubLogo :size="'1.5em'"/></a>   </button>
               </div>
               
             </div>

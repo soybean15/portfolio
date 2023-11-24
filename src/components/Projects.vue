@@ -91,6 +91,7 @@ const projects = [
   {
     title: "PNHS EMS",
     description: "PNHS Management System",
+    thumbnail:'https://user-images.githubusercontent.com/75112014/285397230-6acd45af-f459-4199-877c-2910aedcf880.png',
     type: "Desktop",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
     repository: [
@@ -105,6 +106,7 @@ const projects = [
     title: "PNHS Voting System",
     description: "PNHS Voting System",
     type: "Web",
+    thumbnail:'https://user-images.githubusercontent.com/75112014/285394615-f6b3ade9-00db-45f4-9b44-3c3b2929be23.png',
     stacks: [
       { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
       { name: "laravel.com", label: "Laravel", link: "https://laravel.com" },
@@ -133,6 +135,7 @@ const projects = [
   {
     title: "Maxilife Online Appointment And Patient Record",
     description: "Appointment system for Maxilife Clinic",
+    thumbnail:'https://user-images.githubusercontent.com/75112014/285396256-9258a016-4c33-41ed-a100-28afd23e9ebc.png',
     type: "Web",
     stacks: [
       { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
