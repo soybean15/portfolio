@@ -1,11 +1,11 @@
 <template>
-  <div class="flex flex-col self-start md:self-center px-3 md:w-[1000px]">
+  <div class="flex flex-col   px-3 md:w-[1000px]">
     <div class="px-5 md:px-10">
       <div class="text-2xl md:text-4xl font-bold text-start text-green-500">
         Projects
       </div>
 
-      <div class="grid grid-col-1 md:grid-cols-2 gap-2 py-2">
+      <div class="grid  grid-col-1 md:grid-cols-2 gap-2 py-2">
         <div v-for="project in projects" :key="project.title">
           <project :project="project" />
         </div>
@@ -37,6 +37,7 @@ const projects = [
     description: "Java console-based Lucky 9 game",
     type: "console",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
+    thumbnail:'https://user-images.githubusercontent.com/75112014/285388794-43662063-2c72-4f2e-8459-3d6f3d4ec958.png',
     repository: [
       {
         label: "repo",
@@ -59,7 +60,8 @@ const projects = [
     ],
   },
   {
-    title: "ConnectFour Console game",
+    title: "ConnectFour Console",
+    thumbnail:'https://user-images.githubusercontent.com/75112014/285387660-68478624-a962-4293-bad4-634f680681de.png',
     description: "Connect Four Console Game in Java",
     type: "console",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],

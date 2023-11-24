@@ -2,8 +2,8 @@
 <div ref="target"  > 
     <Transition name="slide-fade">
   
-      <div class=" p-2 md:p-5 flex flex-col md:flex-row border border-base-200 rounded-md"  v-if="targetIsVisible"> 
-        <div class="md:w-[40%] flex "> 
+      <div class=" p-2 md:p-5   flex flex-col md:flex-row border border-base-200 rounded-md"  v-if="targetIsVisible"> 
+        <div class="w-full  bg-slate-500 md:w-[40%] flex "> 
           <img  class="  border-2 w-full aspect-video rounded-lg" :src="project.thumbnail ?? require('@/assets/ongoing.png')" />
         </div>
 
