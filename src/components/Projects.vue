@@ -49,6 +49,7 @@ const projects = [
   {
     title: "Lover Bot",
     description: "SimpleChat bot on java console",
+    thumbnail:'https://user-images.githubusercontent.com/75112014/285391723-4f743f21-09b9-4b8c-bb14-bb9fac37d672.png',
     type: "console",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
     repository: [
@@ -77,6 +78,7 @@ const projects = [
     title: "Java Swing Pagination",
     description: "A public, simple pagination library for Java Swing projects.",
     type: "console",
+    thumbnail:'https://user-images.githubusercontent.com/75112014/219864078-581f2bd8-073c-42b9-a7b2-19be0dcaaa90.png',
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
     repository: [
       {
