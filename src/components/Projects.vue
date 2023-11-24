@@ -4,6 +4,17 @@
       <div class="text-2xl md:text-4xl font-bold text-start text-green-500">
         Projects
       </div>
+      <div>
+        <FilterProject
+          :options="[
+            'All',
+            'Console',
+            'Desktop',
+            'Web'
+          ]"
+          @onClick="filterProjects"
+        />
+         </div>
 
       <div class="grid  grid-col-1 md:grid-cols-2 gap-2 py-2">
         <div v-for="project in projects" :key="project.title">
@@ -15,9 +26,11 @@
 </template>
 
 <script>
+import { ref } from 'vue';
+import FilterProject from './FilterProject.vue';
 import Project from "./Project.vue";
 
-const projects = [
+const _projects = [
   {
     title: "CScreen",
     description: "Text-base UI on Console",
@@ -92,7 +105,7 @@ const projects = [
     title: "PNHS EMS",
     description: "PNHS Management System",
     thumbnail:'https://user-images.githubusercontent.com/75112014/285397230-6acd45af-f459-4199-877c-2910aedcf880.png',
-    type: "Desktop",
+    type: "desktop",
     stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
     repository: [
       {
@@ -186,10 +199,22 @@ const projects = [
   },
 ];
 export default {
-  components: { Project },
+  components: { Project,FilterProject },
   setup() {
+
+    const projects = ref(_projects)
     return {
       projects,
+      filterProjects:(val)=>{
+
+        if(val==='All'){
+          projects.value = _projects
+        }else{
+          projects.value = _projects.filter(e=>e.type.toLowerCase() ===val.toLowerCase())
+
+        }
+
+      }
     };
   },
 };

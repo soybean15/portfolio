@@ -16,8 +16,8 @@
           <p class="text-start text-md md:text-xl py-2">
             Aspiring web developer and student,I'm diving deep into the world of
             Vue.js and Laravel. I am passionate about creating dynamic web
-            applications, and I am enthusiastic about learning and staying
-            updated on industry trends. I am willing to learn and explore new
+            applications, and I'm enthusiastic about learning and staying
+            updated on industry trends. I'm willing to learn and explore new
             concepts in web development.
           </p>
           <div class="flex py-2">
