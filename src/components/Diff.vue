@@ -6,7 +6,7 @@
     <span>15</span>
   </div>
 
-  <div class="font-righteous absolute top-0 text-xl bg-green-500 px-1 rounded-s-lg overflow-hidden w-[2em]">
+  <div class="font-righteous absolute top-0 text-xl bg-green-500 px-1 rounded-bl-[110px] rounded-tl-[40px]  rounded-br-[30px] rounded-tr-[100px] overflow-hidden w-[2em]">
     <span class="text-base-100">Soybean</span>
     <span>15</span>
   </div>

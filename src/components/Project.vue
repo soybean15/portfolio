@@ -3,12 +3,16 @@
     <Transition name="slide-fade">
   
       <div class=" p-2 md:p-5 flex border border-base-200 rounded-md"  v-if="targetIsVisible"> 
-        <div class="w-1/2 aspect-[16/9]"> 
+        <div class="w-[40%] aspect-[16/9]"> 
           <img src="@/assets/ongoing.png" />
         </div>
 
-        <div class="px-3 flex flex-col w-1/2 justify-between">
-          <div class="flex flex-col">
+        <div class="px-3 flex flex-col w-[60%] justify-between">
+          <div class="flex relative flex-col">
+            <div class="absolute -right-3 top-0">
+           
+               <button class="btn btn-xs btn-ghost">    <GithubLogo :size="'1.5em'"/> </button>
+              </div>
             <div class="text-left text-lg md:text-md font-bold text-accent">
               {{ project.title }}
             </div>
@@ -38,9 +42,11 @@
 import Logo from "./Logo.vue";
 import { ref } from "vue";
 import { useElementVisibility } from '@vueuse/core'
+
+import GithubLogo from './GithubLogo.vue';
 export default {
   props: ["project"],
-  components: { Logo },
+  components: { Logo,GithubLogo },
   setup(){
     const target = ref(null)
     const targetIsVisible = useElementVisibility(target)
