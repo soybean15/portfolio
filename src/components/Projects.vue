@@ -172,8 +172,8 @@ const _projects = [
     ],
   },
   {
-    title: "PAEC Instructor Schedule Organizer",
-    description: "Organizing Employee Schedules",
+    title: "PAEC Instructor Schedule Management",
+    description: "Managing Employee Schedules",
     thumbnail:'https://github-production-user-asset-6210df.s3.amazonaws.com/75112014/286176837-0fdb9e27-4b1a-4942-8e73-5169e53c1eff.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T080937Z&X-Amz-Expires=300&X-Amz-Signature=a7ad2ef72ecb2730e598b4a3aec307b014d63d99d29cf82dcbbd785648ba14bf&X-Amz-SignedHeaders=host&actor_id=75112014&key_id=0&repo_id=699159411',
     type: "Web",
     stacks: [
