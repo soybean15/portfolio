@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col   px-3 md:w-[1000px]">
+  <div class="flex flex-col mt-10   px-3 md:w-[1000px]">
     <div class="px-5 md:px-10">
       <div class="text-2xl md:text-4xl font-bold text-start text-green-500">
         Projects
@@ -168,6 +168,33 @@ const _projects = [
       {
         label: "private repo",
         link: "https://github.com",
+      },
+    ],
+  },
+  {
+    title: "PAEC Instructor Schedule Organizer",
+    description: "Organizing Employee Schedules",
+    thumbnail:'https://private-user-images.githubusercontent.com/75112014/286175131-addcb276-fb80-4c28-bc41-7b9934232752.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDExNTg2NzQsIm5iZiI6MTcwMTE1ODM3NCwicGF0aCI6Ii83NTExMjAxNC8yODYxNzUxMzEtYWRkY2IyNzYtZmI4MC00YzI4LWJjNDEtN2I5OTM0MjMyNzUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMTI4VDA3NTkzNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZhZDRlM2Q2ZDNmZDE4NmZiNzYwNTM0Yjg5YzRlYjRkNzgyNjRlZTdlYWEzMjRjNTY2NGQ2MDA0MDMwMTIyODMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.FX0L_74BNCvmZthX3cUA437ft7BMNgkewzE-EBH3ivQ',
+    type: "Web",
+    stacks: [
+      { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
+      { name: "laravel.com", label: "Laravel", link: "https://laravel.com" },
+      {
+        name: "tailwindcss.com",
+        label: "Tailwind",
+        link: "https://tailwindcss.com",
+      },
+      { name: "quasar.dev", label: "Quasar", link: "https://quasar.dev" },
+     
+    ],
+    repository: [
+      {
+        label: "client",
+        link: "https://github.com/soybean15/paec-instructor-monitoring-client",
+      },
+      {
+        label: "api",
+        link: "https://github.com/soybean15/paec-instructor-monitoring-api",
       },
     ],
   },
