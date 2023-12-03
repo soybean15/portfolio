@@ -174,7 +174,7 @@ const _projects = [
   {
     title: "PAEC Instructor Schedule Management",
     description: "Managing Employee Schedules",
-    thumbnail:'https://github-production-user-asset-6210df.s3.amazonaws.com/75112014/286176837-0fdb9e27-4b1a-4942-8e73-5169e53c1eff.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T080937Z&X-Amz-Expires=300&X-Amz-Signature=a7ad2ef72ecb2730e598b4a3aec307b014d63d99d29cf82dcbbd785648ba14bf&X-Amz-SignedHeaders=host&actor_id=75112014&key_id=0&repo_id=699159411',
+    thumbnail:'https://user-images.githubusercontent.com/75112014/287516516-485a065d-11e8-4d4f-ac07-73a88956468c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE2MDU4MzcsIm5iZiI6MTcwMTYwNTUzNywicGF0aCI6Ii83NTExMjAxNC8yODc1MTY1MTYtNDg1YTA2NWQtMTFlOC00ZDRmLWFjMDctNzNhODg5NTY0NjhjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjAzVDEyMTIxN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMxNTkwZTRmZTNlNTIxZDZiODA3YzkxOWUxYTM0ZDdhZWJiZTFmODAwMmY0YzA5YTg4NzM1OGExOWZlNjU3ZjUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.EVaHFEzKLqj3HQneF9ugYsJVwfDRSqJyOGMBCXYs6UQ',
     type: "Web",
     stacks: [
       { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
