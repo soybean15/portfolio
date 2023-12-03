@@ -20,4 +20,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 
-![Uploading image.png…]()
+![image](https://github.com/soybean15/portfolio/assets/75112014/485a065d-11e8-4d4f-ac07-73a88956468c)
+
