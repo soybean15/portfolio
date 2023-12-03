@@ -216,13 +216,10 @@ const _projects = [
     ],
     repository: [
       {
-        label: "client",
-        link: "https://github.com/soybean15/realtime-biometrics-client",
-      },
-      {
-        label: "api",
-        link: "https://github.com/soybean15/realtime-biometrics-api",
-      },
+        label: "repo",
+        link: "https://github.com/soybean15/document-control",
+      }
+     
     ],
   },
   {
