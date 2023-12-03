@@ -199,6 +199,33 @@ const _projects = [
     ],
   },
   {
+    title: "PNHS Document control",
+    description: "Verify documents with qr code",
+    type: "Web",
+    thumbnail:'https://user-images.githubusercontent.com/75112014/287519554-fd1a8aac-e045-40e7-98b6-f806e320bdca.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE2MDg5ODAsIm5iZiI6MTcwMTYwODY4MCwicGF0aCI6Ii83NTExMjAxNC8yODc1MTk1NTQtZmQxYThhYWMtZTA0NS00MGU3LTk4YjYtZjgwNmUzMjBiZGNhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjAzVDEzMDQ0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNhNWMzOTNmZmNlOGI2MjlhMDNjMDE1MjVlMjA3OTk0OWZjNjNhZTllMTExNWJlMDllZjllYmZhMmE2MjIwZmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0HNPmhEL-ZEzgwPX7YnSjhd-mDFSORmQ5UMITVC2ymE',
+    stacks: [
+      { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
+      { name: "laravel.com", label: "Laravel", link: "https://laravel.com" },
+      {
+        name: "tailwindcss.com",
+        label: "Tailwind",
+        link: "https://tailwindcss.com",
+      },
+      { name: "quasar.dev", label: "Quasar", link: "https://quasar.dev" },
+      { name: "inertiajs.com", label: "Inertiajs", link: "https://inertiajs.com/" },
+    ],
+    repository: [
+      {
+        label: "client",
+        link: "https://github.com/soybean15/realtime-biometrics-client",
+      },
+      {
+        label: "api",
+        link: "https://github.com/soybean15/realtime-biometrics-api",
+      },
+    ],
+  },
+  {
     title: "PNHS Realtime biometrics",
     description: "Attendance Monitoring with real time biometrics",
     type: "Web",
