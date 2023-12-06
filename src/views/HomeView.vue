@@ -25,14 +25,12 @@ export default {
     Projects,
   },
   setup() {
+   
     useHead({
       title: "Soybean",
+      
       meta: [
-        {
-          hid: "og:image",
-          property: "og:image",
-          content: require("@/assets/soybean.png"),
-        },
+      { name: 'og:image',  content: require("@/assets/soybean.png") },
       ],
     });
     return {};
