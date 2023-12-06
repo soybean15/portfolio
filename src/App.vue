@@ -24,8 +24,7 @@ export default {
       title: "Soybean",
      
       meta: [
-      { name: 'image', property:"og:image", content: require("@/assets/soybean.png") },
-  
+
       { name: 'description',  content:"My Portfolio" },
       ],
     });
