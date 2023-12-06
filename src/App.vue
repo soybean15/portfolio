@@ -26,7 +26,7 @@ export default {
     {
       name: 'description',
       content: 'My Portfolio',
-      name: 'image',
+      name: 'og:image',
       content: require('@/assets/soybean.png')
     },
   ],
