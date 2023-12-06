@@ -11,7 +11,7 @@
 import NavBar from "./components/NavBar.vue";
 import { useThemeStore } from "@/store/theme";
 import { storeToRefs } from "pinia";
-
+import { useHead } from "@unhead/vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -19,7 +19,14 @@ export default {
   setup() {
     const themeStore = useThemeStore();
     const { activeTheme } = storeToRefs(themeStore);
-
+ 
+    useHead({
+      title: "Soybean",
+      
+      meta: [
+      { property: 'og:image',  content: require("@/assets/soybean.png") },
+      ],
+    });
   
     return {
       activeTheme,

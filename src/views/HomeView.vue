@@ -16,7 +16,7 @@
 <script>
 import Hero from "@/components/Hero.vue";
 import { ref } from "vue";
-import { useHead } from "@unhead/vue";
+
 import Projects from "@/components/Projects.vue";
 export default {
   name: "HomeView",
@@ -25,14 +25,7 @@ export default {
     Projects,
   },
   setup() {
-   
-    useHead({
-      title: "Soybean",
-      
-      meta: [
-      { name: 'og:image',  content: require("@/assets/soybean.png") },
-      ],
-    });
+  
     return {};
   },
 };
