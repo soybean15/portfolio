@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col mt-10   px-3 md:w-[1000px]">
+  <div class="flex flex-col mt-10   px-3 md:w-[1000px] lg:w-[1500px]">
     <div class="px-5 md:px-10">
       <div class="text-2xl md:text-4xl font-bold text-start text-green-500">
         Projects
@@ -16,7 +16,7 @@
         />
          </div>
 
-      <div class="grid  grid-col-1 md:grid-cols-2 gap-2 py-2">
+      <div class="grid  grid-col-1 lg:grid-cols-2 gap-2 py-2">
         <div v-for="project in projects" :key="project.title">
           <project :project="project" />
         </div>
@@ -148,7 +148,7 @@ const _projects = [
   {
     title: "Maxilife Online Appointment And Patient Record",
     description: "Appointment system for Maxilife Clinic",
-    thumbnail:'https://user-images.githubusercontent.com/75112014/285396256-9258a016-4c33-41ed-a100-28afd23e9ebc.png',
+    thumbnail:'https://user-images.githubusercontent.com/75112014/288383072-b5413536-57bf-42f0-bfc3-1a9722ad0a79.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE4NjMyMjIsIm5iZiI6MTcwMTg2MjkyMiwicGF0aCI6Ii83NTExMjAxNC8yODgzODMwNzItYjU0MTM1MzYtNTdiZi00MmYwLWJmYzMtMWE5NzIyYWQwYTc5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA2VDExNDIwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA1ZTMxNjA5ZTg4NTU1ZTE0NmViMTdhNGVhYTExYTAxZjJiYzA0NjBjOGEwNGQzMzNiYjU2NzY0MjZiMDI0ZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.xhglf0abZqnfH1fqbGBwndjDadgk7wHWUh8g38ZdkLs',
     type: "Web",
     stacks: [
       { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
