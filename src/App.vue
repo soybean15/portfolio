@@ -24,8 +24,8 @@ export default {
       title: "Soybean",
      
       meta: [
-   //   { name: 'image',  content: require("@/assets/soybean.png") },
-   { name: 'image',  content: " https://user-images.githubusercontent.com/75112014/219864078-581f2bd8-073c-42b9-a7b2-19be0dcaaa90.png"},
+      { name: 'image', property:"og:image", content: require("@/assets/soybean.png") },
+  
       { name: 'description',  content:"My Portfolio" },
       ],
     });
