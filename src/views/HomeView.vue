@@ -1,5 +1,5 @@
 <template>
-  <div ref="target" class="home flex flex-col items-center">
+  <div ref="target" class="home flex flex-col items-center py-20 md:py-[140px]">
     <hero />
 
     <Projects/>

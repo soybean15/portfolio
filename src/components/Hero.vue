@@ -54,6 +54,8 @@ const logos = [
   { name: "npmjs.org", label: "Npm", link: "https://npmjs.org" },
   { name: "mysql.com", label: "MySql", link: "https://mysql.com" },
   { name: "inertiajs.com", label: "Inertia", link: "https://inertiajs.com" },
+  { name: "git-scm.com", label: "Git", link: "https://git-scm.com" },
+  { name: "github.com", label: "Github", link: "https://github.com" },
 ];
 
 export default {

@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar flex justify-between items-center bg-base px-5 md:px-20">
+  <div class="navbar bg-gray-900 bg-opacity-20 fixed flex justify-between items-center bg-base px-5 md:px-20">
    
     <diff class="cursor-pointer"/>
   
