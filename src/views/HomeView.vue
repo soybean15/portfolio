@@ -2,30 +2,39 @@
   <div ref="target" class="home flex flex-col items-center py-20 md:py-[140px]">
     <hero />
 
-    <Projects/>
+    <Projects />
 
     <div>
-      <div> 
+      <div>
         Development on Progress...
-        <img src="@/assets/ongoing2.png"/>
+        <img src="@/assets/ongoing2.png" />
       </div>
     </div>
-
   </div>
 </template>
 
 <script>
 import Hero from "@/components/Hero.vue";
 import { ref } from "vue";
-
-import Projects from '@/components/Projects.vue';
+import { useHead } from "@unhead/vue";
+import Projects from "@/components/Projects.vue";
 export default {
   name: "HomeView",
   components: {
     Hero,
-    Projects
+    Projects,
   },
   setup() {
+    useHead({
+      title: "Soybean",
+      meta: [
+        {
+          hid: "og:image",
+          property: "og:image",
+          content: require("@/assets/soybean.png"),
+        },
+      ],
+    });
     return {};
   },
 };
