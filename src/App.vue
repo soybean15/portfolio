@@ -4,6 +4,11 @@
   <router-view/>
 
   <Footer/>
+
+  <vue-link-preview
+		url="https://vuejs.org/"
+		@click="handleClick"
+	></vue-link-preview>
  </div>
 </template>
 
@@ -11,11 +16,11 @@
 import NavBar from './components/NavBar.vue'
 import {useThemeStore} from '@/store/theme'
 import { storeToRefs } from 'pinia'
-
+import LinkPreview from "@ashwamegh/vue-link-preview";
 import Footer from './components/Footer.vue'
 export default{
   
-  components:{NavBar,Footer},
+  components:{NavBar,Footer,LinkPreview},
   setup(){
     const themeStore = useThemeStore()
     const {activeTheme} =storeToRefs(themeStore)
