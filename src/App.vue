@@ -1,41 +1,41 @@
 <template>
- <div :data-theme="activeTheme" >
-  <NavBar/>
-  <router-view/>
+  <div :data-theme="activeTheme">
+    <NavBar />
+    <router-view />
 
-  <Footer/>
-
-
-
-
- </div>
+    <Footer />
+  </div>
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue'
-import {useThemeStore} from '@/store/theme'
-import { storeToRefs } from 'pinia'
-import { useHead } from '@unhead/vue'
-import Footer from './components/Footer.vue'
+import NavBar from "./components/NavBar.vue";
+import { useThemeStore } from "@/store/theme";
+import { storeToRefs } from "pinia";
+import { useHead } from "@unhead/vue";
+import Footer from "./components/Footer.vue";
 
-export default{
-  
-  components:{NavBar,Footer},
-  setup(){
-    const themeStore = useThemeStore()
-    const {activeTheme} =storeToRefs(themeStore)
+export default {
+  components: { NavBar, Footer },
+  setup() {
+    const themeStore = useThemeStore();
+    const { activeTheme } = storeToRefs(themeStore);
 
-
-useHead({
-  title: 'My awesome site'
-})
+    useHead({
+      title: "Soybean",
+      meta: [
+    {
+      name: 'description',
+      content: 'My Portfolio',
+      name: 'image',
+      content: require('@/assets/soybean.png')
+    },
+  ],
+    });
     return {
       activeTheme,
-      
-    }
-  }
-
-}
+    };
+  },
+};
 </script>
 
 
