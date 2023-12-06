@@ -5,10 +5,9 @@
 
   <Footer/>
 
-  <vue-link-preview
-		url="https://vuejs.org/"
-		@click="handleClick"
-	></vue-link-preview>
+
+
+
  </div>
 </template>
 
@@ -16,16 +15,23 @@
 import NavBar from './components/NavBar.vue'
 import {useThemeStore} from '@/store/theme'
 import { storeToRefs } from 'pinia'
-import LinkPreview from "@ashwamegh/vue-link-preview";
+import { useHead } from '@unhead/vue'
 import Footer from './components/Footer.vue'
+
 export default{
   
-  components:{NavBar,Footer,LinkPreview},
+  components:{NavBar,Footer},
   setup(){
     const themeStore = useThemeStore()
     const {activeTheme} =storeToRefs(themeStore)
+
+
+useHead({
+  title: 'My awesome site'
+})
     return {
-      activeTheme
+      activeTheme,
+      
     }
   }
 
