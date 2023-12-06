@@ -21,7 +21,7 @@ export default {
     const { activeTheme } = storeToRefs(themeStore);
  
     useHead({
-      title: "Soybean",
+   //   title: "Soybean",
      
       meta: [
 
