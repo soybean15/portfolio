@@ -226,6 +226,7 @@ const _projects = [
     title: "PNHS Realtime biometrics",
     description: "Attendance Monitoring with real time biometrics",
     type: "Web",
+    thumbnail:'https://user-images.githubusercontent.com/75112014/289338431-ac243cf1-e575-4286-a4a0-b8a95c860230.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIxODQ3MjMsIm5iZiI6MTcwMjE4NDQyMywicGF0aCI6Ii83NTExMjAxNC8yODkzMzg0MzEtYWMyNDNjZjEtZTU3NS00Mjg2LWE0YTAtYjhhOTVjODYwMjMwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEwVDA1MDAyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA1Y2U2OTEyMzA5NzllYTQ2ODU4MzMzMmYxYjkxZTU3MzgzM2VhYmM5NGUzMzJhYmMxNjdkYWNhYmM2MzM2YWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.OCwmF5E0f72iJ3-tV8CNzWIziy_YjucsHVi4TzFGxUk',
     stacks: [
       { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
       { name: "laravel.com", label: "Laravel", link: "https://laravel.com" },
